@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fontName" format="string" />
+    <declare-styleable name="WrenchubTextView">
+        <attr name="fontName" />
+    </declare-styleable>
+    <declare-styleable name="WrenchubEditText">
+        <attr name="fontName" />
+    </declare-styleable>
+    <declare-styleable name="WrenchubRadioButton">
+        <attr name="fontName"/>
+    </declare-styleable>
+    <declare-styleable name="WrenchubCompleteTextView">
+        <attr name="fontName"/>
+    </declare-styleable>
+    <declare-styleable name="WrenchubButton">
+        <attr name="fontName"/>
+    </declare-styleable>
+    <declare-styleable name="WrenchubCheckBox">
+        <attr name="fontName"/>
+    </declare-styleable>
+
+
+</resources>

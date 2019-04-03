@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.RegistrationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.wrenchub.wrenchub.View.WrenchubTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_view_size"
+            android:layout_marginTop="@dimen/thirty_view_size"
+            android:layout_marginRight="@dimen/ten_view_size"
+            android:text="Name"
+            android:textColor="@color/button"
+            app:fontName="@string/appfontregular" />
+
+        <com.wrenchub.wrenchub.View.WrenchubEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten_view_size"
+            android:background="@drawable/border_edittext"
+            android:inputType="text"
+            android:padding="@dimen/ten_view_size"
+            android:singleLine="true"
+            app:fontName="@string/appfontregular" />
+
+        <com.wrenchub.wrenchub.View.WrenchubTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_view_size"
+            android:layout_marginTop="@dimen/ten_view_size"
+            android:layout_marginRight="@dimen/ten_view_size"
+            android:text="Email ID"
+            android:textColor="@color/button"
+            app:fontName="@string/appfontregular" />
+
+        <com.wrenchub.wrenchub.View.WrenchubEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten_view_size"
+            android:background="@drawable/border_edittext"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/ten_view_size"
+            android:singleLine="true"
+            app:fontName="@string/appfontregular" />
+
+        <com.wrenchub.wrenchub.View.WrenchubTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_view_size"
+            android:layout_marginTop="@dimen/ten_view_size"
+            android:layout_marginRight="@dimen/ten_view_size"
+            android:text="Mobile no"
+            android:textColor="@color/button"
+            app:fontName="@string/appfontregular" />
+
+        <com.wrenchub.wrenchub.View.WrenchubEditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten_view_size"
+            android:background="@drawable/border_edittext"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="@dimen/ten_view_size"
+            android:singleLine="true"
+            app:fontName="@string/appfontregular" />
+
+
+
+        <com.wrenchub.wrenchub.View.WrenchubTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_view_size"
+            android:layout_marginTop="@dimen/ten_view_size"
+            android:layout_marginRight="@dimen/ten_view_size"
+            android:text="Password"
+            android:textColor="@color/button"
+            app:fontName="@string/appfontregular" />
+
+        <com.wrenchub.wrenchub.View.WrenchubEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten_view_size"
+            android:background="@drawable/border_edittext"
+            android:inputType="textPassword"
+            android:padding="@dimen/ten_view_size"
+            android:singleLine="true"
+            app:fontName="@string/appfontregular" />
+        <com.wrenchub.wrenchub.View.WrenchubTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_view_size"
+            android:layout_marginTop="@dimen/ten_view_size"
+            android:layout_marginRight="@dimen/ten_view_size"
+            android:text="Confirm Password"
+            android:textColor="@color/button"
+            app:fontName="@string/appfontregular" />
+
+        <com.wrenchub.wrenchub.View.WrenchubEditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten_view_size"
+            android:background="@drawable/border_edittext"
+            android:inputType="textPassword"
+            android:padding="@dimen/ten_view_size"
+            android:singleLine="true"
+            app:fontName="@string/appfontregular" />
+
+
+        <com.wrenchub.wrenchub.View.WrenchubButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_view_size"
+            android:layout_marginTop="@dimen/twenty_text_size"
+            android:layout_marginRight="@dimen/ten_view_size"
+            android:layout_marginBottom="@dimen/twenty_text_size"
+            android:background="@color/button"
+            android:gravity="center"
+            android:padding="@dimen/fifteen_view_size"
+            android:text="Register"
+            android:textColor="@color/white"
+            app:fontName="@string/appfontregular" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

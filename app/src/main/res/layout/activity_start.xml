@@ -1,0 +1,28 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="200dp"
+        android:layout_height="@dimen/margin_40"
+        app:tabGravity="fill"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@drawable/bacground_linear"
+        app:tabTextColor="@color/login_tab_text"
+        app:tabIndicatorColor="@android:color/transparent"
+        app:tabBackground="@drawable/login_tab"
+        app:tabMode="fixed" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margin_70"
+        android:layout_height="match_parent" />
+
+</android.support.design.widget.CoordinatorLayout>

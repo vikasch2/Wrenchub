@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="thirty_view_size">30dp</dimen>
+    <dimen name="ten_view_size">10dp</dimen>
+    <dimen name="twenty_text_size">20sp</dimen>
+    <dimen name="fifteen_view_size">15sp</dimen>
+    <dimen name="five_view_size">5dp</dimen>
+    <dimen name="thiry_view_size">30dp</dimen>
+    <dimen name="tewenty_view_size">20dp</dimen>
+</resources>

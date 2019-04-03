@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Wrenchub</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_text">Login</string>
+    <string name="appfontbold">josefinsans_bold.ttf</string>
+    <string name="appfontbolditalic">josefinsans_bolditalic.ttf</string>
+    <string name="appfontitalic">josefinsans_italic.ttf</string>
+    <string name="appfontlight">josefinsans_light.ttf</string>
+    <string name="appfontlightitalic">josefinsans_lightitalic.ttf</string>
+    <string name="appfontregular">josefinsans_regular.ttf</string>
+    <string name="appfontsemibold">josefinsans_semibold.ttf</string>
+    <string name="appfontsemibolditalic">josefinsans_semibolditalic.ttf</string>
+    <string name="appfontthin">josefinsans_thin.ttf</string>
+    <string name="appfontthinitalic">josefinsans_thinitalic.ttf</string>
+    <string name="url" />
+</resources>

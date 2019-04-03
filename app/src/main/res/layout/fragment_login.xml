@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.LoginFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.wrenchub.wrenchub.View.WrenchubTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten_view_size"
+        android:layout_marginTop="@dimen/thirty_view_size"
+        android:layout_marginRight="@dimen/ten_view_size"
+        android:text="Mobile number"
+        android:textColor="@color/button"
+        app:fontName="@string/appfontregular" />
+
+     <com.wrenchub.wrenchub.View.WrenchubEditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ten_view_size"
+        android:background="@drawable/border_edittext"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="@dimen/ten_view_size"
+        android:singleLine="true"
+        app:fontName="@string/appfontregular" />
+
+
+    <com.wrenchub.wrenchub.View.WrenchubTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten_view_size"
+        android:layout_marginTop="@dimen/ten_view_size"
+        android:layout_marginRight="@dimen/ten_view_size"
+        android:text="Password"
+        android:textColor="@color/button"
+        app:fontName="@string/appfontregular" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/ten_view_size"
+            android:background="@drawable/border_edittext">
+
+            <com.wrenchub.wrenchub.View.WrenchubEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center|start"
+                android:inputType="textPassword"
+                android:padding="@dimen/ten_view_size"
+                android:singleLine="true"
+                app:fontName="@string/appfontregular" />
+
+            <ImageView
+                android:id="@+id/visibility_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="7"
+                android:padding="10dp"
+                android:src="@drawable/password_eye"
+                android:tag="1" />
+
+        </LinearLayout>
+        <com.wrenchub.wrenchub.View.WrenchubTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_view_size"
+            android:layout_marginTop="@dimen/five_view_size"
+            android:layout_marginRight="@dimen/ten_view_size"
+            android:text="Forgot Password?"
+            android:textColor="@color/button"
+            app:fontName="@string/appfontregular" />
+
+        <com.wrenchub.wrenchub.View.WrenchubButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_view_size"
+            android:layout_marginTop="@dimen/twenty_text_size"
+            android:layout_marginRight="@dimen/ten_view_size"
+            android:layout_marginBottom="@dimen/twenty_text_size"
+            android:background="@color/button"
+            android:gravity="center"
+            android:padding="@dimen/fifteen_view_size"
+            android:text="@string/login_text"
+            android:textColor="@color/white"
+            app:fontName="@string/appfontregular" />
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
